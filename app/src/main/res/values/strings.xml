@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">OrderTaker_Aethan</string>
+    <string-array name="desserts_array">
+        <item>Leche Flan</item>
+        <item>Halo-halo</item>
+        <item>Suman</item>
+        <item>Kutsinta</item>
+    </string-array>
+</resources>

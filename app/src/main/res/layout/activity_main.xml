@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textViewTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Taker "
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:hint="Name?" />
+
+    <CheckBox
+        android:id="@+id/checkBox1kanin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1 kanin" />
+
+    <CheckBox
+        android:id="@+id/checkBox2kanin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2 kanin" />
+
+    <RadioGroup
+        android:id="@+id/radioGroupUlam"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/radioButtonPorkchop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Porkchop" />
+
+        <RadioButton
+            android:id="@+id/radioButtonChopsuey"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Chopsuey" />
+        <RadioButton
+            android:id="@+id/radioButtonAdobo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Adobo" />
+        <RadioButton
+            android:id="@+id/radioButtonBulalo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Bulalo" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/spinnerDesserts"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1 0dp"
+        android:entries="@array/desserts_array" />
+
+    <Button
+        android:id="@+id/buttonSubmit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <TextView
+        android:id="@+id/textViewResult"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingTop="16dp" />
+</LinearLayout>
+
